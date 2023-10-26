@@ -5,13 +5,10 @@ A GAN-like model for imputing feature before immunogenic neoepitope prediction. 
 
 # Input & Output
 
-| Input | Format | Path |  |
-| --- | --- | --- | --- |
-| File | csv | /data/raw_data/{DIR} | Data files that need to be imputed or normalized. |
-
-| Output | Format | Path |  |
-| --- | --- | --- | --- |
-| File | csv | /data/gan_data/{DIR} | The complete dataset after imputing and normalization. |
+| File   | Format | Path |  |
+|--------| --- | --- | --- |
+| Input  | csv | /data/raw_data/{DIR} | Data files that need to be imputed or normalized. |
+| Output | csv | /data/gan_data/{DIR} | The complete dataset after imputing and normalization. |
 
 # Usage method
 
